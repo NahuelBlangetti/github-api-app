@@ -20,3 +20,11 @@
 .center{
     align-items: center;
 }
+
+.fst-italic{
+    font-style: italic;
+}
+
+.fst-normal{
+    font-style: normal;
+}
