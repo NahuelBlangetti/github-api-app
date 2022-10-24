@@ -1,8 +1,15 @@
+import React from 'react';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="App">
-        <h3>HOLAAAAAAAA</h3>
+    <div class="light-blue lighten-5">
+
+      <Header/>
+      
+      <Footer/>
+      
     </div>
   );
 }
