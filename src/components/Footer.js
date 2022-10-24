@@ -11,8 +11,8 @@ export default function Footer() {
                     <div className="col l3 offset-l30 s12 secondary-content">
                         <h5 className="text-white">Links</h5>
                         <ul>
-                            <li><a className="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
-                            <li><a className="grey-text text-lighten-3" href="#!">GitHub</a></li>
+                            <li><a className="grey-text text-lighten-3" href="https://www.linkedin.com/in/nahuelblangetti/">LinkedIn</a></li>
+                            <li><a className="grey-text text-lighten-3" href="https://github.com/NahuelBlangetti">GitHub</a></li>
                         </ul>
                     </div>
                 </div>
