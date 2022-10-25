@@ -5,8 +5,12 @@ export default function Footer() {
                 <div className="row">
                     <div className="col l8">
                         <h5 className="text-white blue-text">Api Rest GitHub</h5>
-                        <p className="grey-text text-lighten-4">Espero que les haya gustado el diseño de la pagina, espero obtener una oportunidad de crecimiento.</p>
-                        <p className="grey-text text-lighten-4">Gracias por su tiempo.</p>
+                        <p className="grey-text text-lighten-4">
+                            Espero que les haya gustado el diseño y funcionamiento 
+                            de la pagina, asi obtener una oportunidad de crecimiento.
+                            <br/>
+                            Gracias por su tiempo.
+                        </p>
                     </div>
                     <div className="col l3 offset-l30 s12">
                         <h5 className="blue-text">Links</h5>

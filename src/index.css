@@ -11,7 +11,7 @@
 
 .col1 {
     width: 15%;
-    margin-top: 2rem;
+    margin-top: 2.1rem;
 }
  .col2 {
     width: 85%;
@@ -24,6 +24,10 @@
 .fst-italic{
     font-style: italic;
     color: gray;
+}
+
+.font-small{
+    font-size: small;
 }
 
 .fst-normal{
