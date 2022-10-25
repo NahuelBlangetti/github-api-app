@@ -20,7 +20,9 @@
 .center{
     align-items: center;
 }
-
+.display{
+    display: inline-block;
+}
 .fst-italic{
     font-style: italic;
     color: gray;
@@ -29,7 +31,9 @@
 .font-small{
     font-size: small;
 }
-
+.mayus{
+    text-transform:capitalize;
+}
 .fst-normal{
     font-style: normal;
 }

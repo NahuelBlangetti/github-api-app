@@ -69,7 +69,7 @@ export default function Body() {
         return (
             <li key={repos.id} className="row collection-item">
                 <div class="col2">
-                    <h5 class="fst-normal">
+                    <h5 class="fst-normal mayus">
                         {repos.name}
                     </h5>
                     <p class="fst-italic">
@@ -102,7 +102,7 @@ export default function Body() {
                 overlayClassName="modal-overlay"
                 className="modal-content">
                 <Button className="secondary-content button indigo darken-4" onClick={closeModal}>X</Button>
-                <h5>Repostorio By: {nameRepo}</h5>
+                <h5>Repostorio By: <a className="mayus indigo-text darken-4">{nameRepo}</a></h5>
                 <hr />
                 <Row>
                     <Col s={12}>
