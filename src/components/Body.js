@@ -59,7 +59,7 @@ export default function Body() {
     const listItemsRepositorio = repositorio.map((repositorio) =>
         <CollectionItem>
             <p class="fst-normal">
-                {repositorio.name} - {repositorio._links.html}
+                {repositorio.name} - <a href={repositorio._links.html}>Visit</a>
             </p>
         </CollectionItem>
     );
