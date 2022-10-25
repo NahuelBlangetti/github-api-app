@@ -29,3 +29,24 @@
 .fst-normal{
     font-style: normal;
 }
+
+.modal-overlay {
+    padding: 2rem;
+    background-color: #68bee685;
+    margin-top: 8rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content{
+    position: relative;
+    padding: 2rem;
+    width: 90%;
+    height: 70%;
+    max-width: 1000px;
+    max-height: 800px;
+    overflow: auto;
+    border-radius: 1rem;
+    background-color: white;
+}
