@@ -1,5 +1,4 @@
 import "materialize-css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Body from "./Body";
 
 export default function Header() {
@@ -11,11 +10,7 @@ export default function Header() {
                 </div>
             </nav>
 
-            <BrowserRouter>
-                <Routes>
-                    <Route path='/' element={<Body />} exact></Route>
-                </Routes>
-            </BrowserRouter>
+            <Body />
         </div>
     );
 }
