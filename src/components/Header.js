@@ -6,11 +6,10 @@ export default function Header() {
         <div>
             <nav>
                 <div class="nav-wrapper indigo darken-4">
-                    <a href="/" class="brand-logo center">Repositories by GitHub</a>
+                    <a href="#" class="brand-logo center">Repositories by GitHub</a>
                 </div>
             </nav>
-
-            <Body />
+            <Body/>
         </div>
     );
 }
